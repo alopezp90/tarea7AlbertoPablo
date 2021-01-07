@@ -14,10 +14,12 @@ import java.time.Month;
 import java.time.MonthDay;
 import java.time.Period;
 import java.time.YearMonth;
+<<<<<<< HEAD
 import java.time.format.DateTimeFormatter;
 import java.time.format.TextStyle;
 import java.time.temporal.ChronoUnit;
 import java.util.Locale;
+=======
 
 /**
  *
@@ -77,8 +79,6 @@ public class FechasJava8 {
         if (caducidadTarjeta.isBefore(actual)){
             System.out.println("Su tarjeta ha caducado");
         }
-        
-        /*OPERACIONES CON FECHAS. SUMA, RESTA DE DIAS, SEMANAS, AÑOS, ETC*/
         
         // Sumar semanas
         LocalDate semanaSiguiente = hoy.plus(1, ChronoUnit.WEEKS);
