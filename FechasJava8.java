@@ -14,13 +14,10 @@ import java.time.Month;
 import java.time.MonthDay;
 import java.time.Period;
 import java.time.YearMonth;
-<<<<<<< HEAD
 import java.time.format.DateTimeFormatter;
 import java.time.format.TextStyle;
 import java.time.temporal.ChronoUnit;
 import java.util.Locale;
-=======
-
 /**
  *
  * @author usuario
@@ -57,6 +54,7 @@ public class FechasJava8 {
         
         // Método isBefore()
         
+
         /* EJEMPLO CON LA CLASE MONTHDAY */
         // Sólo guarda el día y el mes (no el año)
         LocalDate diaAnda = LocalDate.of(1976, Month.FEBRUARY, 28);
@@ -164,6 +162,11 @@ public class FechasJava8 {
         System.out.println("Fecha sin formato " + ya);
         System.out.println("Fecha con formato " + fechaString2);
         
+=======
+        /* EJEMPLO CON LA CLASE MOTHDAY */
+        
+        
+>>>>>>> parent of 67ee45f... Ejemplo clase MonthDay
     }
     
 }
